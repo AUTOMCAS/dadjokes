@@ -28,3 +28,12 @@ display joke
 has button
 button renews joke
 footer contains me
+
+### API
+
+https://icanhazdadjoke.com/api
+
+### Colours
+
+2F87B9
+D9D9D9
