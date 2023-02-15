@@ -2,12 +2,12 @@ import React from 'react';
 import HomeContainer from '../components/HomeContainer';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <HomeContainer />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,9 +1,11 @@
 import JokeCardContainer from './JokeCardContainer';
 
-export default function HomeContainer() {
+const HomeContainer = () => {
   return (
     <div data-test="home-container">
       <JokeCardContainer />
     </div>
   );
-}
+};
+
+export default HomeContainer;
