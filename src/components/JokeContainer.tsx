@@ -1,7 +1,7 @@
-export default function JokeContainer() {
+export default function JokeCardContainer() {
   return (
-    <div className="joke-cintainer" data-test="joke-container">
-      <div className="joke" data-test="joke"></div>
+    <div className="joke-container" data-test="joke-card-container">
+      <div className="joke-container" data-test="joke-container"></div>
     </div>
   );
 }

@@ -1,8 +1,8 @@
-import JokeContainer from '../../src/components/JokeContainer';
+import JokeCardContainer from '../../src/components/JokeContainer';
 
 describe('JokeContainer.cy.tsx', () => {
   it('should contain the joke element', () => {
-    cy.mount(<JokeContainer />);
+    cy.mount(<JokeCardContainer />);
     cy.getByData('joke').should('exist');
   });
 });
