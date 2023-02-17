@@ -1,4 +1,4 @@
-import JokeCardContainer from '../../src/components/JokeCardContainer';
+import JokeCardContainer from '../../src/components/JokeCardContainer/JokeCardContainer';
 
 describe('JokeCardContainer.cy.tsx', () => {
   it('should contain the joke container', () => {

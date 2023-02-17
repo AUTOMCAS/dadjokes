@@ -1,4 +1,4 @@
-import JokeContainer from '../../src/components/JokeContainer';
+import JokeContainer from '../../src/components/JokeContainer/JokeContainer';
 import randomJokeFixture from '../fixtures/random-joke.json';
 
 describe('JokeContainer.cy.tsx', () => {

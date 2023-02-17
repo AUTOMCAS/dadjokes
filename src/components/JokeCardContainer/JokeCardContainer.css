@@ -1,0 +1,17 @@
+.joke-card-container {
+  display: flex;
+  /* flex-direction: row; */
+  background-color: #d9d9d9;
+  /* height: 300px; */
+  width: 600px;
+  /* max-height: 100%; */
+  max-width: 100%;
+}
+
+.joke-card-container-side-bar {
+  background-color: #2f87b9;
+  align-self: stretch;
+  flex-basis: 24px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}

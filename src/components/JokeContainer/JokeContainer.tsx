@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './JokeContainer.css';
 
 const JokeContainer: React.FC = (): JSX.Element => {
   const [randomJoke, setRandomJoke] = useState<string>('');
@@ -8,7 +9,9 @@ const JokeContainer: React.FC = (): JSX.Element => {
   }, []);
 
   const getRandomJoke = async (): Promise<void> => {
-    await fetch('https://icanhazdadjoke.com/')
+    await fetch('https://icanhazdadjoke.com/', {
+      headers: { Accept: 'application/json' },
+    })
       .then((response) => response.json())
       .then((data) => {
         setRandomJoke(data.joke);
