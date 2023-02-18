@@ -9,7 +9,7 @@
 }
 
 .joke-container-button {
-  background-color: #335f91;
+  background-color: #fb8631;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   padding: 8px;
@@ -24,7 +24,7 @@
 
 .joke-container-button:hover,
 .joke-container-button:focus {
-  background-color: #fb8332;
+  background-color: #fb8631;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
