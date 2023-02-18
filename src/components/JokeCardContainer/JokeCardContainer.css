@@ -1,6 +1,6 @@
 .joke-card-container {
   display: flex;
-  background-color: #d9d9d9;
+  background-color: #ececec;
   width: 600px;
   height: 200px;
   max-width: 100%;
@@ -8,7 +8,7 @@
 }
 
 .joke-card-container-side-bar {
-  background-color: #2f87b9;
+  background-color: #fb8631;
   align-self: stretch;
   flex-basis: 24px;
   flex-grow: 0;
