@@ -21,8 +21,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "snowpack build",
     "eject": "react-scripts eject",
+    "build": "snowpack build",
     "test:unit": "jest",
     "cypress:open": "cypress open",
     "test:component": "cypress run --component",
