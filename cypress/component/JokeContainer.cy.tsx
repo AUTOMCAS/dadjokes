@@ -16,4 +16,16 @@ describe('JokeContainer.cy.tsx', () => {
       `${randomJokeFixture.joke}`,
     );
   });
+
+  it('should make fetch request for new joke when button is pressed', () => {
+    cy.intercept('GET', 'https://icanhazdadjoke.com/', {
+      fixture: 'random-joke.json',
+    }).as('getRandomJoke');
+
+    cy.mount(<JokeContainer />);
+    cy.wait('@getRandomJoke');
+
+    cy.getByData('joke-container-button').click();
+    cy.get('@getRandomJoke.all').should('have.length', 2);
+  });
 });

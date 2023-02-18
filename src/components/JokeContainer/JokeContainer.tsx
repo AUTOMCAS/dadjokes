@@ -21,6 +21,13 @@ const JokeContainer: React.FC = (): JSX.Element => {
   return (
     <div className="joke-container" data-test="joke-container">
       <div>{randomJoke}</div>
+      <button
+        className="joke-container-button"
+        data-test="joke-container-button"
+        onClick={getRandomJoke}
+      >
+        Next...
+      </button>
     </div>
   );
 };
