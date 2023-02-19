@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# Dad jokes on demand
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple project to use an external API to display a random joke on the screen every click.
+
+Published on Github pages [here](https://automcas.github.io/dadjokes/)
+
+[API](https://icanhazdadjoke.com/api)
+
+## Technologies
+
+- Typescript.
+- React.
+- Cypress for e2e and component testing.
+- Styling with CSS.
+- Babel for compiling.
+
+## Screenshots
 
 ## Available Scripts
 
@@ -16,24 +30,8 @@ You will also see any lint errors in the console.
 
 ### `npm run cypress:open`
 
-Open Cypress.
+Open Cypress for e2e and component testing
 
 ### `npm run build`
 
-Tests
-Load page
-have container
-fetch a joke - jest
-display joke
-has button
-button renews joke
-footer contains me
-
-### API
-
-https://icanhazdadjoke.com/api
-
-### Colours
-
-2F87B9
-D9D9D9
+Build the project into regular JavaScript for web use.
