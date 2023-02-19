@@ -16,9 +16,9 @@ Simple project to use an external API to display a random joke on the screen eve
 
 ## Screenshots
 
-[!overview](https://github.com/AUTOMCAS/dadjokes/blob/main/misc/screenshots/overview.png?raw=true)
-[!joke2](https://github.com/AUTOMCAS/dadjokes/blob/main/misc/screenshots/joke2.png?raw=true)
-[!joke3](https://github.com/AUTOMCAS/dadjokes/blob/main/misc/screenshots/joke3.png?raw=true)
+![overview](https://github.com/AUTOMCAS/dadjokes/blob/main/misc/screenshots/overview.png?raw=true)
+![joke2](https://github.com/AUTOMCAS/dadjokes/blob/main/misc/screenshots/joke2.png?raw=true)
+![joke3](https://github.com/AUTOMCAS/dadjokes/blob/main/misc/screenshots/joke3.png?raw=true)
 
 ## Available Scripts
 
