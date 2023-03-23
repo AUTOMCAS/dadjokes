@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b06eb91.css",
-    "main.js": "/static/js/main.6793945a.js",
-    "static/js/787.f9a03bb8.chunk.js": "/static/js/787.f9a03bb8.chunk.js",
-    "index.html": "/index.html",
-    "main.4b06eb91.css.map": "/static/css/main.4b06eb91.css.map",
-    "main.6793945a.js.map": "/static/js/main.6793945a.js.map",
-    "787.f9a03bb8.chunk.js.map": "/static/js/787.f9a03bb8.chunk.js.map"
+    "main.css": "/dadjokes/static/css/main.ec61a443.css",
+    "main.js": "/dadjokes/static/js/main.a3b9d291.js",
+    "static/js/787.f9a03bb8.chunk.js": "/dadjokes/static/js/787.f9a03bb8.chunk.js",
+    "index.html": "/dadjokes/index.html",
+    "main.ec61a443.css.map": "/dadjokes/static/css/main.ec61a443.css.map",
+    "main.a3b9d291.js.map": "/dadjokes/static/js/main.a3b9d291.js.map",
+    "787.f9a03bb8.chunk.js.map": "/dadjokes/static/js/787.f9a03bb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b06eb91.css",
-    "static/js/main.6793945a.js"
+    "static/css/main.ec61a443.css",
+    "static/js/main.a3b9d291.js"
   ]
 }
