@@ -24,7 +24,8 @@
     "build": "react-scripts build",
     "cypress:open": "cypress open",
     "test:component": "cypress run --component",
-    "test:e2e": "\"test:e2e:run\" \"test:e2e:start\""
+    "test:e2e": "\"test:e2e:run\" \"test:e2e:start\"",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

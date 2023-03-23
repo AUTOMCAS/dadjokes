@@ -39,3 +39,7 @@ Open Cypress for e2e and component testing
 ### `npm run build`
 
 Build the project into regular JavaScript for web use.
+
+### `npm run deploy`
+
+Deploy to GH pages
